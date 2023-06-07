@@ -9,5 +9,5 @@
 `npm install --save react-fullpage`
 
 - 고려중
-1. style components
+1. style components -> 설치 X
 2. redux toolkit
