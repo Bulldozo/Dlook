@@ -31,6 +31,6 @@
 .mainBox01 .content h1,
 .mainBox02 .content h1 { margin-bottom: 30px; font-size: 60px; font-weight: 500; line-height: 66px; }
 .mainBox01 .content button { margin-top: 30px; color: var(--text-100); }
-.mainBox02 .content { position: absolute; bottom: 41%; right: 7%;text-align: center; font-size: 18px; line-height: 24px; font-weight: 300; }
+.mainBox02 .content { position: absolute; bottom: 45%; right: 7%;text-align: center; font-size: 18px; line-height: 24px; font-weight: 300; }
 .mainBox02 .content button { padding: 3px 20px; font-size: 13px; color: var(--primary-200); background-color: var(--bg-200); }
 .mainBox03 { background-color: var(--bg-100); }

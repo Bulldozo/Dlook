@@ -6,6 +6,7 @@ import Board from './components/page/Board';
 import LogIn from './components/auth/Login';
 import SignUp from './components/auth/SignUp';
 import SignUpResult from './components/auth/SignUpResult';
+import Algorithms from './components/page/Algorithms';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path='/signUp' Component={SignUp}></Route>
         <Route path='/signupresult' Component={SignUpResult}></Route>
         {/* 알고리즘 */}
-        <Route path='/algorithms/step'></Route>
+        <Route path='/algorithms/step' Component={Algorithms}></Route>
         <Route path='/algorithms/type'></Route>
         {/* 게시판 */}
         <Route path='/board' Component={Board}></Route>
