@@ -8,12 +8,6 @@
 
 `npm install --save react-fullpage`
 
-`npm install @nivo/core`
-
-`npm install @nivo/bar`
-
-`npm install @nivo/pie`
-
 - 고려중임
 1. style components
 2. redux toolkit
