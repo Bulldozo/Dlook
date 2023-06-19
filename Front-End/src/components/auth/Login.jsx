@@ -12,17 +12,18 @@ function Login() {
 
     return (
         <>
-        <div className="login-template">
-            <div className="title">
-                User Login
-            </div>
-            <form action="/login" method="post">
-                <div className="input-wrapper">
-                    <input type="text" name="userID" placeholder="userID" />
-                    <input type="password" name="userPW" placeholder="password" />
-                </div>
-                <button type="submit">Sign In</button>
+        <div class="login-wrapper">
+            <h2>Login</h2>
+            <form action="/login" method="post" id="login-form">
+                <input type="text" name="userName" placeholder="Email"/>
+                <input type="password" name="userPassword" placeholder="Password"/>
+                <input type="submit" value="Login"/>
+            <br/><button><img src="./img/google icon.png"/></button>
+            <button id="searchpassword" onclick="location.href='searchpassword.html'" type="button">비밀번호 찾기</button>
             </form>
+        </div>
+        <div id="firstvisit">
+            Dlook이 처음이신가요? <button id="signup" onclick="location.href='signup.html'" type="button">회원가입</button>
         </div>
         </>
     );
